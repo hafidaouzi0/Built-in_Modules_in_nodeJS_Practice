@@ -1,7 +1,7 @@
 //here is an example of how to use async fs with callbacks
 //cuz we can try it with promises and more ways for less code
 //like async , await 
-const {readFile,writeFile, read}=require("fs");
+const {readFile,writeFile}=require("fs");
 
 
 readFile('./first.txt','utf8',(err,result)=>{
